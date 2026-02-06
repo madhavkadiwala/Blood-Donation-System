@@ -1,0 +1,157 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f7fa; /* Light blue */
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in elements total width and height */
+}
+
+/* CSS for Container */
+.container {
+    max-width: 100%; 
+    margin: 0 auto;
+    background: #ffffff; /* White */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow-x: auto; /* Allows horizontal scrolling  needed */
+}
+
+/* CSS for Heading */
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #00796b; /* Teal */
+}
+
+/* CSS for Form Groups */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #004d40; /* Dark teal */
+}
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00796b; /* Teal */
+    border-radius: 5px;
+    font-size: 16px;
+    color: #004d40; /* Dark teal */
+    box-sizing: border-box; /*included in width */
+}
+
+.form-group button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00796b; /* Teal */
+    color: #ffffff; /* White */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #004d40; /* Dark teal */
+}
+
+/* CSS for Success and Error Messages */
+.success-message {
+    text-align: center;
+    color: #388e3c; /* Green */
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.error-message {
+    text-align: center;
+    color: #d32f2f; /* Red */
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* CSS for Button Container */
+.button-container {
+    display: flex; /*  better alignment */
+    justify-content: center; /* Center align the buttons */
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px; /* Margin  top */
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00796b; /* Teal */
+    color: #ffffff; /* White */
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #004d40; /* Dark teal */
+}
+
+/* CSS for Button Container */
+.button-container {
+    display: flex; /*  better alignment */
+    justify-content: center; /* Center align the buttons */
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px; /* the top */
+}
+
+/* Button Styles for Specific Buttons */
+.button-submit {
+    padding: 12px 20px;
+    font-size: 18px;
+}
+
+/* CSS for Table */
+.record-table {
+    width: 100%; /*  table uses full width of its container */
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.record-table th, .record-table td {
+    padding: 12px;
+    border: 1px solid #00796b; /* Teal */
+    text-align: left;
+}
+
+.record-table th {
+    background-color: #00796b; /* Teal */
+    color: #ffffff; /* White */
+}
+
+.record-table tr:nth-child(even) {
+    background-color: #f1f8f9; /* Light grey */
+}
+
+.record-table tr:hover {
+    background-color: #bde0fe; /* Light blue */
+}
+
+/* CSS for Highlighted Row */
+.record-table tr.highlight {
+    background-color: #d0f0c0; /* Light green for highlighting */ /* Light blue #bde0fe */
+}
+
+/* CSS for Table Container */
+.table-container {
+    overflow-x: auto; /* horizontal scrolling if needed */
+    width: 100%; /* the table container uses full width */
+}
+
